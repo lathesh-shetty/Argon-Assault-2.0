@@ -323,7 +323,6 @@
 -r:"D:/Unity/2021.3.4f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"D:/Unity/2021.3.4f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"D:/Unity/2021.3.4f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -352,7 +351,17 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs"
+"Assets/Assets/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs"
+"Assets/Assets/Standard Assets/Environment/Water/Water/Scripts/Displace.cs"
+"Assets/Assets/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs"
+"Assets/Assets/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs"
+"Assets/Assets/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs"
+"Assets/Assets/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs"
+"Assets/Assets/Standard Assets/Environment/Water/Water/Scripts/Water.cs"
+"Assets/Assets/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs"
+"Assets/Assets/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs"
+"Assets/Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs"
+"Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 
 /deterministic
