@@ -140,12 +140,24 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 177739314, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: yRange
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 177739314, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 177739314, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: controlSpeed
-      value: 25
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 177739314, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: positionYawFactor
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 177739314, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: controlPitchFactor
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 2358195761363016792, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: m_Name
