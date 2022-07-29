@@ -152,6 +152,10 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 177739314, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
+      propertyPath: controlYawFactor
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 177739314, guid: 972b4b7d4d0542c4faf5702b3f9f3e27, type: 3}
       propertyPath: positionYawFactor
       value: 2
       objectReference: {fileID: 0}

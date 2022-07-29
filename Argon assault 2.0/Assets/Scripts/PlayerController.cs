@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float controlSpeed = 0.2f;
-    [SerializeField] float xRange = 5f;
-    [SerializeField] float yRange = 3.5f;
+    [SerializeField] float controlSpeed = 10f;
+    [SerializeField] float xRange = 10f;
+    [SerializeField] float yRange = 7f;
+
     [SerializeField] float positionPitchFactor = -2f;
     [SerializeField] float controlPitchFactor = -10f;
-    [SerializeField] float positionYawFactor = 1.0f;
+    [SerializeField] float positionYawFactor = 2f;
+    [SerializeField] float controlYawFactor = 20;
 
 
     float xThrow;
@@ -33,9 +35,12 @@ public class PlayerController : MonoBehaviour
       float pitchDueToPosition = transform.localPosition.y * positionPitchFactor ; //pitch from the position change
       float pithDueToControlflow = yThrow * controlPitchFactor; //pitch from the rotation change
 
+
+
       float pitch = pitchDueToPosition + pithDueToControlflow; // pitch 
-      float yaw = transform.localPosition.x * positionYawFactor ;
-      float roll = transform.localPosition.z * positionPitchFactor * 0f;
+      float yaw =   transform.localPosition.x * positionYawFactor ;
+      float roll = xThrow * controlYawFactor;
+      
       transform.localRotation = Quaternion.Euler(pitch , yaw ,roll);
     }
 
