@@ -361,6 +361,8 @@
 "Assets/Assets/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs"
 "Assets/Assets/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs"
 "Assets/Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs"
+"Assets/Scripts/CollisionHAndler.cs"
+"Assets/Scripts/Enemy.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 
