@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float controlSpeed = 10f;
-    [SerializeField] float xRange = 10f;
-    [SerializeField] float yRange = 7f;
+    [Header("General Setup")]
+    [Tooltip("Speed of movement")][SerializeField] float controlSpeed = 10f;
+    [Tooltip("Horizontal movement")][SerializeField] float xRange = 10f;
+    [Tooltip("Vertical movement")][SerializeField] float yRange = 7f;
 
+
+    [Header("lasers,add all laser here")]
     [SerializeField] GameObject[] lasers;
 
+
+    [Header("Screen position based turning")]
     [SerializeField] float positionPitchFactor = -2f;
-    [SerializeField] float controlPitchFactor = -10f;
     [SerializeField] float positionYawFactor = 2f;
+
+    [Header("Input based turning")]
+    [SerializeField] float controlPitchFactor = -10f;
     [SerializeField] float controlYawFactor = 20;
 
 
@@ -65,23 +72,24 @@ public class PlayerController : MonoBehaviour
 
     void ProcessFiring()
     {
-      if(Input.GetButton("Fire1"));
+      if(Input.GetButton("Fire1"))
         {
-            Activatelasers();
+            SetlaserActive(true);
         }
         else
         {
-            Deactivatelaser();
+            SetlaserActive(false);
         }
     }
 
-    void Activatelasers()
+    void SetlaserActive(bool isActive)
     {
-
+        foreach (GameObject laser in lasers)
+        {
+          var emmissionModule = laser.GetComponent<ParticleSystem>().emission;
+          emmissionModule.enabled = isActive;
+        }
     }
 
-    void Deactivatelaser()
-    {
 
-    }
 }
