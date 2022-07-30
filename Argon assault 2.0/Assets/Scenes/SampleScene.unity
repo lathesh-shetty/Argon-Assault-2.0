@@ -340,6 +340,16 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 4627177149412636270, guid: a083acf7ab30d284fad6253b9aee38d7, type: 3}
   m_PrefabInstance: {fileID: 4627177147885242245}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1554348734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5279815411557042065, guid: a083acf7ab30d284fad6253b9aee38d7, type: 3}
+  m_PrefabInstance: {fileID: 4627177147885242245}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2011799643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4801020046300923543, guid: a083acf7ab30d284fad6253b9aee38d7, type: 3}
+  m_PrefabInstance: {fileID: 4627177147885242245}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2041473153
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,10 +488,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4627177147774561014, guid: a083acf7ab30d284fad6253b9aee38d7, type: 3}
-      propertyPath: field of view
-      value: 83
+    - target: {fileID: 4627177147452236135, guid: a083acf7ab30d284fad6253b9aee38d7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4627177147452236135, guid: a083acf7ab30d284fad6253b9aee38d7, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4627177147452236135, guid: a083acf7ab30d284fad6253b9aee38d7, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1554348734}
+    - target: {fileID: 4627177147452236135, guid: a083acf7ab30d284fad6253b9aee38d7, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 2011799643}
     - target: {fileID: 4627177149412636268, guid: a083acf7ab30d284fad6253b9aee38d7, type: 3}
       propertyPath: m_Name
       value: PlayerRig
