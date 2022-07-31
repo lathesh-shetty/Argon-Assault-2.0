@@ -156,8 +156,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: c6fe0bf88df1a884e8a929f3f2c1bf6d, type: 3}
+  hitVFX: {fileID: 3200836327345539238, guid: c1383bfbc8a885142ac201e4f0f301e1, type: 3}
   parent: {fileID: 1919950390}
   scorePerHit: 15
+  hitpoint: 2
 --- !u!65 &83263231
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -269,8 +271,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: c6fe0bf88df1a884e8a929f3f2c1bf6d, type: 3}
+  hitVFX: {fileID: 3200836327345539238, guid: c1383bfbc8a885142ac201e4f0f301e1, type: 3}
   parent: {fileID: 1919950390}
   scorePerHit: 15
+  hitpoint: 2
 --- !u!65 &134640509
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -382,8 +386,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: c6fe0bf88df1a884e8a929f3f2c1bf6d, type: 3}
+  hitVFX: {fileID: 3200836327345539238, guid: c1383bfbc8a885142ac201e4f0f301e1, type: 3}
   parent: {fileID: 1919950390}
   scorePerHit: 15
+  hitpoint: 2
 --- !u!65 &217528167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -599,8 +605,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: c6fe0bf88df1a884e8a929f3f2c1bf6d, type: 3}
+  hitVFX: {fileID: 3200836327345539238, guid: c1383bfbc8a885142ac201e4f0f301e1, type: 3}
   parent: {fileID: 1919950390}
   scorePerHit: 15
+  hitpoint: 2
 --- !u!1 &1160065591
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,8 +709,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: c6fe0bf88df1a884e8a929f3f2c1bf6d, type: 3}
+  hitVFX: {fileID: 3200836327345539238, guid: c1383bfbc8a885142ac201e4f0f301e1, type: 3}
   parent: {fileID: 1919950390}
   scorePerHit: 15
+  hitpoint: 2
 --- !u!65 &1236437445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -912,8 +922,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: c6fe0bf88df1a884e8a929f3f2c1bf6d, type: 3}
+  hitVFX: {fileID: 3200836327345539238, guid: c1383bfbc8a885142ac201e4f0f301e1, type: 3}
   parent: {fileID: 1919950390}
   scorePerHit: 15
+  hitpoint: 2
 --- !u!65 &2122580346
 BoxCollider:
   m_ObjectHideFlags: 0
