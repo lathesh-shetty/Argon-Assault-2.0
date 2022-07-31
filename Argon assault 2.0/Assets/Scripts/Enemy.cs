@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject hitVFX;
     [SerializeField] int scorePerHit = 15;
     [SerializeField] int hitpoint = 2;
-    Spawn at runtime
+
 
     Scoreboard scoreBoard;
     GameObject parentGameObject;
