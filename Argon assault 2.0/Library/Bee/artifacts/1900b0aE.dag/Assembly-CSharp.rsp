@@ -364,6 +364,7 @@
 "Assets/Scripts/CollisionHAndler.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/Scoreboard.cs"
 "Assets/Scripts/SelfDistruct.cs"
 -langversion:9.0
 
