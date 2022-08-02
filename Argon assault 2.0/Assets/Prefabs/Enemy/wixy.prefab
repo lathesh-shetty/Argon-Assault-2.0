@@ -237,6 +237,7 @@ GameObject:
   - component: {fileID: 3293913222781657733}
   - component: {fileID: 3284301024417943223}
   - component: {fileID: -9208629246524874673}
+  - component: {fileID: 2308740306317860998}
   m_Layer: 0
   m_Name: wixy
   m_TagString: Untagged
@@ -322,11 +323,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8731a0e7cfe5ed64285bac1c3c998460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3200836327345539238, guid: c6fe0bf88df1a884e8a929f3f2c1bf6d, type: 3}
+  deathFX: {fileID: 3200836327345539238, guid: c6fe0bf88df1a884e8a929f3f2c1bf6d, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: c1383bfbc8a885142ac201e4f0f301e1, type: 3}
-  parent: {fileID: 0}
   scorePerHit: 15
   hitpoint: 5
+--- !u!65 &2308740306317860998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3298104065033160957}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.659655, y: 2.52239, z: 10.850527}
+  m_Center: {x: 0, y: -0.0000032782555, z: -0.00000023841858}
 --- !u!1 &3384940533786481479
 GameObject:
   m_ObjectHideFlags: 0

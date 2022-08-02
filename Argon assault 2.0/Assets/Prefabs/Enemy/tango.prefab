@@ -732,6 +732,7 @@ GameObject:
   - component: {fileID: 6039399470190562146}
   - component: {fileID: 6050111371473492370}
   - component: {fileID: 8889701276053676453}
+  - component: {fileID: -3076700905982673795}
   m_Layer: 0
   m_Name: tango
   m_TagString: Untagged
@@ -817,11 +818,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8731a0e7cfe5ed64285bac1c3c998460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3200836327345539238, guid: c6fe0bf88df1a884e8a929f3f2c1bf6d, type: 3}
+  deathFX: {fileID: 3200836327345539238, guid: c6fe0bf88df1a884e8a929f3f2c1bf6d, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: c1383bfbc8a885142ac201e4f0f301e1, type: 3}
-  parent: {fileID: 0}
   scorePerHit: 15
   hitpoint: 5
+--- !u!65 &-3076700905982673795
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6026110577902449642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.491302, y: 2.8077502, z: 10.850525}
+  m_Center: {x: 0, y: -0.0000056624413, z: 0.0000011920929}
 --- !u!1 &6540807064825430369
 GameObject:
   m_ObjectHideFlags: 0
