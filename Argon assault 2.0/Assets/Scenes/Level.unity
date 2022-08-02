@@ -133,6 +133,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1632040138060283383, guid: 2f4ef4ec1ffc7b842a4075128aa9cef5, type: 3}
   m_PrefabInstance: {fileID: 1632040138181600044}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &126878391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5880473618594827117, guid: 03734ef82a578b64a9174e4e0a90b936, type: 3}
+  m_PrefabInstance: {fileID: 7041390816875843781}
+  m_PrefabAsset: {fileID: 0}
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 4844709148089222943, guid: c3e5aba1f762877419ee4f4af3f44bba, type: 3}
@@ -378,17 +383,26 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -6478658955317581572, guid: 994103ad1e1f184488a191374b75247b, type: 2}
     value: {fileID: 1527394795}
+  - key: {fileID: -8387588524652038691, guid: 994103ad1e1f184488a191374b75247b, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - b2643c689224cff4190cdf2b6dc2df15: {fileID: 121462490}
+    - b16e33cd22f165d499f03543ef5b2670: {fileID: 126878391}
     - 646a77021bd480945aea2de70c02764c: {fileID: 1698693532}
+    - c45343d4206633342ac2e48315dc9ebd: {fileID: 126878391}
     - 86f53327b9f422740aae2d560acedbe1: {fileID: 3818404157654507914}
     - dec54d5a0652bd74d8b4be3a24639d49: {fileID: 8586795187154054009}
+    - 357c74d91e3dbbc4fb16a44557e5e682: {fileID: 126878391}
+    - 681170b46c11b534e9a63c6d75847aa1: {fileID: 126878391}
+    - c3f99928934e33145aa707768440dffc: {fileID: 126878391}
     - fdfb1f8ac865de64aaee88df0183a573: {fileID: 121462490}
+    - 99278770c68e5624aa6f9a46b91ed0d1: {fileID: 126878391}
     - 39ca0e43e5c70d64d8eebb7768ad344a: {fileID: 121462490}
     - 1735c521cb32aa443ab3b29c0748385c: {fileID: 3818404157654507914}
     - 543ef90e0e19d3744a6a723c553ec6d1: {fileID: 1698693532}
     - 41736e4f62365664b86a20f0e41d5285: {fileID: 0}
+    - b9b378da4442e9c4f833edeca5712884: {fileID: 126878391}
     - 938c95970bc3b614c8074118713e613a: {fileID: 1698693532}
 --- !u!4 &2129619197
 Transform:
